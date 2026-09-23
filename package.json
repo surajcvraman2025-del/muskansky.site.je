@@ -1,0 +1,19 @@
+{
+  "name": "muskan-sky",
+  "version": "1.0.0",
+  "description": "3D animated Ghibli art starry sky sanctuary with local music library connectivity",
+  "main": "index.html",
+  "scripts": {
+    "start": "npx serve -l 3000"
+  },
+  "keywords": [
+    "threejs",
+    "ghibli",
+    "audio-player",
+    "indexeddb",
+    "webgl",
+    "starry-sky"
+  ],
+  "author": "muskan-sky",
+  "license": "MIT"
+}

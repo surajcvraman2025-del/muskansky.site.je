@@ -1,0 +1,480 @@
+BLENDER 3.1 SPLASH SCENE IN-DEPTH AUDIT
+============================================================
+
+Scene Name: secret deer
+Render Engine: CYCLES
+
+COLLECTIONS AND MEMBERS:
+
+Collection: 'antlers' (43 objects)
+  - glowing (count: 35)
+  - twig (count: 4)
+  - antler 2 (count: 1)
+  - antler (count: 1)
+  - glowing 2 (count: 2)
+
+Collection: 'ASSETS' (0 objects)
+
+Collection: 'body' (7 objects)
+  - spine 1 (count: 1)
+  - glowing (count: 1)
+  - spine 2 (count: 1)
+  - ribs (count: 1)
+  - deer (count: 1)
+  - IVY_Curve (count: 1)
+  - ivy deer (count: 1)
+
+Collection: 'decombent generator 2' (1 objects)
+  - BezierCurve (count: 1)
+
+Collection: 'decombents (SLOW VIEWPORT)' (20 objects)
+  - decombent generator 1 (count: 20)
+
+Collection: 'Deer' (0 objects)
+
+Collection: 'flowers' (785 objects)
+  - flower (count: 736)
+  - twig (count: 2)
+  - parthenocissus tricuspidata (count: 45)
+  - Rose (count: 2)
+
+Collection: 'Generic' (96 objects)
+  - plant (count: 4)
+  - bouganvillier (count: 17)
+  - bush (count: 9)
+  - Camera orig (count: 1)
+  - fern (count: 42)
+  - glowing (count: 17)
+  - glowing 2 (count: 3)
+  - BezierCurve (count: 3)
+
+Collection: 'generic' (75 objects)
+  - bush (count: 1)
+  - fern (count: 60)
+  - plant (count: 1)
+  - flower (count: 3)
+  - decombent 1 (count: 1)
+  - decombent 1 leaf (count: 1)
+  - Plane (count: 2)
+  - twig (count: 1)
+  - Rose (count: 1)
+  - bouganvillier (count: 2)
+  - decombent generator 2 (count: 1)
+  - BezierCurve (count: 1)
+
+Collection: 'Ground, water' (3 objects)
+  - ground (count: 2)
+  - water (count: 1)
+
+Collection: 'Lighting' (2 objects)
+  - Point (count: 2)
+
+Collection: 'Nature' (0 objects)
+
+Collection: 'shadow planes' (4 objects)
+  - shadow (count: 4)
+
+Collection: 'twigs' (39 objects)
+  - BezierCurve (count: 2)
+  - decombent 1 leaf (count: 35)
+  - decombent 1 (count: 2)
+
+TOTAL MESH COUNT: 1044
+TOTAL VERTICES: 14,285,111
+TOTAL FACES: 7,675,485
+
+PRIMARY OBJECTS & BOUNDING INFO:
+  Object: antler                         Type: CURVE      Parent: deer            Loc: [2.53, -2.46, 1.17]
+  Object: antler 2                       Type: CURVE      Parent: deer            Loc: [2.55, -2.45, 1.17]
+  Object: BezierCurve.001                Type: MESH       Parent: None            Loc: [-13.35, -4.68, 0.95]
+  Object: BezierCurve.002                Type: CURVE      Parent: None            Loc: [0.86, -3.1, -0.38]
+  Object: BezierCurve.003                Type: MESH       Parent: None            Loc: [-14.38, -11.95, 2.76]
+  Object: BezierCurve.007                Type: MESH       Parent: None            Loc: [1.51, -3.78, -0.08]
+  Object: BezierCurve.008                Type: MESH       Parent: None            Loc: [2.25, -3.14, -0.22]
+  Object: BezierCurve.009                Type: MESH       Parent: None            Loc: [2.25, -3.14, -0.22]
+  Object: BezierCurve.018                Type: CURVE      Parent: None            Loc: [1.1, -1.68, -0.57]
+  Object: bouganvillier                  Type: MESH       Parent: None            Loc: [5.02, -3.69, -0.37]
+  Object: bouganvillier.001              Type: MESH       Parent: None            Loc: [5.03, -1.86, -0.18]
+  Object: bouganvillier.002              Type: MESH       Parent: None            Loc: [0.82, -1.82, -0.76]
+  Object: bouganvillier.003              Type: MESH       Parent: None            Loc: [2.52, -4.14, -0.86]
+  Object: bouganvillier.004              Type: MESH       Parent: None            Loc: [2.85, 2.01, 1.93]
+  Object: bouganvillier.005              Type: MESH       Parent: None            Loc: [1.68, 2.4, 0.26]
+  Object: bouganvillier.006              Type: MESH       Parent: None            Loc: [6.36, 1.98, 1.1]
+  Object: bouganvillier.007              Type: MESH       Parent: None            Loc: [6.79, -0.14, 3.93]
+  Object: bouganvillier.008              Type: MESH       Parent: None            Loc: [7.45, -2.11, 1.68]
+  Object: bouganvillier.009              Type: MESH       Parent: None            Loc: [7.13, -0.6, 1.27]
+  Object: bouganvillier.010              Type: MESH       Parent: None            Loc: [1.36, 0.2, 0.06]
+  Object: bouganvillier.011              Type: MESH       Parent: None            Loc: [0.46, 3.04, 0.95]
+  Object: bouganvillier.012              Type: MESH       Parent: None            Loc: [8.15, -1.71, 3.07]
+  Object: bouganvillier.013              Type: MESH       Parent: None            Loc: [6.25, 0.44, 0.42]
+  Object: bouganvillier.014              Type: MESH       Parent: None            Loc: [3.41, 2.03, 0.14]
+  Object: bouganvillier.015              Type: MESH       Parent: None            Loc: [3.02, -0.71, 2.44]
+  Object: bouganvillier.016              Type: MESH       Parent: None            Loc: [3.01, -2.35, 2.58]
+  Object: bouganvillier.017              Type: MESH       Parent: None            Loc: [-12.18, -6.4, 0.95]
+  Object: bouganvillier.018              Type: MESH       Parent: None            Loc: [-14.08, -6.43, 0.95]
+  Object: bush.004                       Type: MESH       Parent: None            Loc: [1.2, -3.3, -0.11]
+  Object: bush.005                       Type: MESH       Parent: None            Loc: [2.74, -2.98, 0.0]
+  Object: bush.006                       Type: MESH       Parent: None            Loc: [4.2, -1.86, 0.0]
+  Object: bush.001                       Type: MESH       Parent: None            Loc: [0.87, -3.39, -0.01]
+  Object: bush.002                       Type: MESH       Parent: None            Loc: [0.73, -3.16, -0.01]
+  Object: bush.003                       Type: MESH       Parent: None            Loc: [1.1, -2.97, -0.11]
+  Object: bush.007                       Type: MESH       Parent: None            Loc: [2.55, -3.63, 0.0]
+  Object: bush                           Type: MESH       Parent: None            Loc: [0.7, -3.44, 0.07]
+  Object: bush.008                       Type: MESH       Parent: None            Loc: [0.56, -3.2, 0.07]
+  Object: bush.009                       Type: MESH       Parent: None            Loc: [-12.91, -8.26, 0.95]
+  Object: Camera orig. 24k f3.0    old f2.002 Type: CAMERA     Parent: None            Loc: [-0.58, -6.2, 1.41]
+  Object: decombent 1                    Type: MESH       Parent: None            Loc: [-14.32, -10.85, 1.86]
+  Object: decombent 1 leaf               Type: MESH       Parent: None            Loc: [-14.32, -11.3, 1.89]
+  Object: decombent 1 leaf.002           Type: MESH       Parent: None            Loc: [1.58, -3.6, -0.25]
+  Object: decombent 1 leaf.003           Type: MESH       Parent: None            Loc: [1.58, -3.6, -0.25]
+  Object: decombent 1 leaf.004           Type: MESH       Parent: None            Loc: [1.57, -3.53, -0.24]
+  Object: decombent 1 leaf.005           Type: MESH       Parent: None            Loc: [1.57, -3.53, -0.24]
+  Object: decombent 1 leaf.006           Type: MESH       Parent: None            Loc: [1.53, -3.33, -0.38]
+  Object: decombent 1 leaf.007           Type: MESH       Parent: None            Loc: [1.53, -3.33, -0.38]
+  Object: decombent 1 leaf.008           Type: MESH       Parent: None            Loc: [1.48, -3.4, -0.38]
+  Object: decombent 1 leaf.009           Type: MESH       Parent: None            Loc: [2.76, -3.62, -0.52]
+  Object: decombent 1 leaf.010           Type: MESH       Parent: None            Loc: [2.5, -3.37, -0.38]
+  Object: decombent 1 leaf.011           Type: MESH       Parent: None            Loc: [2.52, -3.37, -0.38]
+  Object: decombent 1 leaf.012           Type: MESH       Parent: None            Loc: [2.48, -3.37, -0.38]
+  Object: decombent 1 leaf.013           Type: MESH       Parent: None            Loc: [2.48, -3.37, -0.38]
+  Object: decombent 1 leaf.014           Type: MESH       Parent: None            Loc: [1.68, -3.13, -0.53]
+  Object: decombent 1 leaf.015           Type: MESH       Parent: None            Loc: [1.68, -3.13, -0.53]
+  Object: decombent 1 leaf.016           Type: MESH       Parent: None            Loc: [2.94, -2.37, -0.38]
+  Object: decombent 1 leaf.017           Type: MESH       Parent: None            Loc: [2.94, -2.39, -0.38]
+  Object: decombent 1 leaf.018           Type: MESH       Parent: None            Loc: [2.94, -2.35, -0.38]
+  Object: decombent 1 leaf.019           Type: MESH       Parent: None            Loc: [2.94, -2.35, -0.38]
+  Object: decombent 1 leaf.020           Type: MESH       Parent: None            Loc: [2.94, -2.34, -0.38]
+  Object: decombent 1 leaf.021           Type: MESH       Parent: None            Loc: [2.94, -2.4, -0.38]
+  Object: decombent 1 leaf.022           Type: MESH       Parent: None            Loc: [2.94, -2.38, -0.38]
+  Object: decombent 1 leaf.023           Type: MESH       Parent: None            Loc: [2.87, -2.92, -0.74]
+  Object: decombent 1 leaf.024           Type: MESH       Parent: None            Loc: [2.87, -2.94, -0.72]
+  Object: decombent 1 leaf.025           Type: MESH       Parent: None            Loc: [2.87, -2.94, -0.72]
+  Object: decombent 1 leaf.026           Type: MESH       Parent: None            Loc: [2.84, -2.89, -0.4]
+  Object: decombent 1 leaf.027           Type: MESH       Parent: None            Loc: [2.83, -2.91, -0.39]
+  Object: decombent 1 leaf.028           Type: MESH       Parent: None            Loc: [2.83, -2.92, -0.39]
+  Object: decombent 1 leaf.029           Type: MESH       Parent: None            Loc: [2.71, -2.8, -0.36]
+  Object: decombent 1 leaf.030           Type: MESH       Parent: None            Loc: [2.7, -2.82, -0.37]
+  Object: decombent 1 leaf.031           Type: MESH       Parent: None            Loc: [1.66, -3.39, -0.29]
+  Object: decombent 1 leaf.032           Type: MESH       Parent: None            Loc: [1.63, -3.38, -0.3]
+  Object: decombent 1 leaf.033           Type: MESH       Parent: None            Loc: [2.21, -3.39, -0.39]
+  Object: decombent 1 leaf.034           Type: MESH       Parent: None            Loc: [2.22, -3.3, -0.39]
+  Object: decombent 1 leaf.035           Type: MESH       Parent: None            Loc: [2.24, -3.34, -0.39]
+  Object: decombent 1 leaf.036           Type: MESH       Parent: None            Loc: [2.23, -3.37, -0.39]
+  Object: decombent 1.002                Type: MESH       Parent: None            Loc: [2.9, -2.85, -0.76]
+  Object: decombent 1.003                Type: MESH       Parent: None            Loc: [2.93, -2.3, -0.38]
+  Object: decombent generator 1.001      Type: EMPTY      Parent: None            Loc: [0.72, -2.8, 2.43]
+  Object: decombent generator 1.002      Type: EMPTY      Parent: None            Loc: [2.62, -3.0, 2.88]
+  Object: decombent generator 1.003      Type: EMPTY      Parent: None            Loc: [1.06, -1.29, 2.56]
+  Object: decombent generator 1.004      Type: EMPTY      Parent: None            Loc: [1.51, -1.52, 3.05]
+  Object: decombent generator 1.005      Type: EMPTY      Parent: None            Loc: [0.83, -1.05, 3.26]
+  Object: decombent generator 1.006      Type: EMPTY      Parent: None            Loc: [-0.45, -4.85, 1.99]
+  Object: decombent generator 1.007      Type: EMPTY      Parent: None            Loc: [1.68, -4.27, 2.34]
+  Object: decombent generator 1.008      Type: EMPTY      Parent: None            Loc: [2.78, -3.72, 2.84]
+  Object: decombent generator 1.009      Type: EMPTY      Parent: None            Loc: [0.99, -5.13, 2.1]
+  Object: decombent generator 1.010      Type: EMPTY      Parent: None            Loc: [1.62, -4.19, 2.66]
+  Object: decombent generator 1.011      Type: EMPTY      Parent: None            Loc: [1.22, -5.31, 1.97]
+  Object: decombent generator 1.012      Type: EMPTY      Parent: None            Loc: [2.79, -3.57, 2.79]
+  Object: decombent generator 1.013      Type: EMPTY      Parent: None            Loc: [3.17, -4.09, 2.1]
+  Object: decombent generator 1.014      Type: EMPTY      Parent: None            Loc: [1.45, -4.05, 2.92]
+  Object: decombent generator 1.015      Type: EMPTY      Parent: None            Loc: [2.12, -4.51, 1.89]
+  Object: decombent generator 1.016      Type: EMPTY      Parent: None            Loc: [0.01, -2.18, 2.05]
+  Object: decombent generator 1.017      Type: EMPTY      Parent: None            Loc: [4.43, -1.03, 1.98]
+  Object: decombent generator 1.018      Type: EMPTY      Parent: None            Loc: [1.2, 0.62, 2.43]
+  Object: decombent generator 1.019      Type: EMPTY      Parent: None            Loc: [0.61, -2.65, 2.03]
+  Object: decombent generator 1.020      Type: EMPTY      Parent: None            Loc: [2.54, -0.19, 2.5]
+  Object: decombent generator 2          Type: EMPTY      Parent: None            Loc: [-14.38, -13.06, 2.76]
+  Object: deer                           Type: MESH       Parent: None            Loc: [2.53, -2.36, 0.57]
+  Object: fern.001                       Type: MESH       Parent: None            Loc: [3.91, -2.53, 0.0]
+  Object: fern.002                       Type: MESH       Parent: None            Loc: [3.52, -2.55, 0.0]
+  Object: fern.003                       Type: MESH       Parent: None            Loc: [2.48, -2.28, -0.07]
+  Object: fern.004                       Type: MESH       Parent: None            Loc: [2.3, -1.69, -0.09]
+  Object: fern.005                       Type: MESH       Parent: None            Loc: [3.16, -2.98, 0.0]
+  Object: fern.006                       Type: MESH       Parent: None            Loc: [2.24, -3.69, 0.0]
+  Object: fern.007                       Type: MESH       Parent: None            Loc: [2.66, -3.34, 0.0]
+  Object: fern.008                       Type: MESH       Parent: None            Loc: [-0.04, -3.24, 0.24]
+  Object: fern.009                       Type: MESH       Parent: None            Loc: [-0.5, -2.11, 0.0]
+  Object: fern.010                       Type: MESH       Parent: None            Loc: [0.08, -1.34, 0.23]
+  Object: fern.011                       Type: MESH       Parent: None            Loc: [-0.25, -0.56, 0.0]
+  Object: fern.012                       Type: MESH       Parent: None            Loc: [-0.32, 0.42, 0.0]
+  Object: fern.013                       Type: MESH       Parent: None            Loc: [0.27, -2.03, 0.15]
+  Object: fern.014                       Type: MESH       Parent: None            Loc: [0.84, 1.37, 0.31]
+  Object: fern.015                       Type: MESH       Parent: None            Loc: [2.33, -4.39, 0.0]
+  Object: fern.016                       Type: MESH       Parent: None            Loc: [3.27, -4.55, 0.18]
+  Object: fern.017                       Type: MESH       Parent: None            Loc: [2.8, -3.68, -0.0]
+  Object: fern.018                       Type: MESH       Parent: None            Loc: [4.7, -3.48, 0.0]
+  Object: fern.019                       Type: MESH       Parent: None            Loc: [4.25, -2.62, 0.0]
+  Object: fern.020                       Type: MESH       Parent: None            Loc: [5.37, -2.92, -0.0]
+  Object: fern.021                       Type: MESH       Parent: None            Loc: [2.86, -4.98, 0.08]
+  Object: fern.022                       Type: MESH       Parent: None            Loc: [6.05, -2.74, 0.23]
+  Object: fern.023                       Type: MESH       Parent: None            Loc: [1.92, -4.15, -0.03]
+  Object: fern.024                       Type: MESH       Parent: None            Loc: [4.38, -3.05, 0.32]
+  Object: fern.025                       Type: MESH       Parent: None            Loc: [0.31, 1.87, 0.67]
+  Object: fern.026                       Type: MESH       Parent: None            Loc: [0.29, -3.79, 0.23]
+  Object: fern.027                       Type: MESH       Parent: None            Loc: [0.63, -3.93, 0.23]
+  Object: fern.028                       Type: MESH       Parent: None            Loc: [1.6, -4.01, -0.05]
+  Object: fern.029                       Type: MESH       Parent: None            Loc: [2.76, -3.61, 0.31]
+  Object: fern.030                       Type: MESH       Parent: None            Loc: [2.06, -3.51, -0.0]
+  Object: fern                           Type: MESH       Parent: None            Loc: [0.3, -0.74, 0.45]
+  Object: fern.031                       Type: MESH       Parent: None            Loc: [0.56, -2.63, 0.1]
+  Object: fern.032                       Type: MESH       Parent: None            Loc: [4.01, -1.47, 0.0]
+  Object: fern.033                       Type: MESH       Parent: None            Loc: [5.05, -1.64, 0.18]
+  Object: fern.034                       Type: MESH       Parent: None            Loc: [4.41, -1.52, 0.16]
+  Object: fern.035                       Type: MESH       Parent: None            Loc: [4.47, -1.24, 0.29]
+  Object: fern.036                       Type: MESH       Parent: None            Loc: [3.84, -1.81, 0.0]
+  Object: fern.037                       Type: MESH       Parent: None            Loc: [4.57, -1.36, 0.19]
+  Object: fern.038                       Type: MESH       Parent: None            Loc: [4.19, -1.31, 0.32]
+  Object: fern.039                       Type: MESH       Parent: None            Loc: [4.58, -1.31, 0.0]
+  Object: fern.040                       Type: MESH       Parent: None            Loc: [4.9, -1.03, 0.16]
+  Object: fern.041                       Type: MESH       Parent: None            Loc: [4.39, -1.27, 0.0]
+  Object: fern.042                       Type: MESH       Parent: None            Loc: [-14.96, -6.38, 0.96]
+  Object: fern.043                       Type: MESH       Parent: None            Loc: [-14.17, -4.77, 0.95]
+  Object: fern.044                       Type: MESH       Parent: None            Loc: [-15.1, -4.73, 0.96]
+  Object: fern.045                       Type: MESH       Parent: None            Loc: [-14.38, -8.16, 0.95]
+  Object: fern.046                       Type: MESH       Parent: None            Loc: [-17.98, -9.67, 0.95]
+  Object: fern.047                       Type: MESH       Parent: None            Loc: [-17.76, -9.71, 0.95]
+  Object: fern.048                       Type: MESH       Parent: None            Loc: [-17.64, -9.14, 0.95]
+  Object: fern.049                       Type: MESH       Parent: None            Loc: [-18.56, -9.56, 0.95]
+  Object: fern.050                       Type: MESH       Parent: None            Loc: [-18.08, -9.16, 0.95]
+  Object: fern.051                       Type: MESH       Parent: None            Loc: [-18.95, -9.05, 0.95]
+  Object: fern.052                       Type: MESH       Parent: None            Loc: [-18.93, -8.85, 0.95]
+  Object: fern.053                       Type: MESH       Parent: None            Loc: [-19.5, -9.43, 0.95]
+  Object: fern.054                       Type: MESH       Parent: None            Loc: [-19.02, -9.34, 0.95]
+  Object: fern.055                       Type: MESH       Parent: None            Loc: [-19.22, -8.94, 0.95]
+  Object: fern.056                       Type: MESH       Parent: None            Loc: [-19.43, -8.99, 0.95]
+  Object: fern.057                       Type: MESH       Parent: None            Loc: [-19.55, -9.15, 0.95]
+  Object: fern.058                       Type: MESH       Parent: None            Loc: [-19.28, -9.22, 0.95]
+  Object: fern.059                       Type: MESH       Parent: None            Loc: [-19.47, -9.62, 0.95]
+  Object: fern.060                       Type: MESH       Parent: None            Loc: [-19.71, -9.38, 0.95]
+  Object: fern.061                       Type: MESH       Parent: None            Loc: [-19.56, -9.66, 0.95]
+  Object: fern.062                       Type: MESH       Parent: None            Loc: [-19.73, -9.75, 0.95]
+  Object: fern.063                       Type: MESH       Parent: None            Loc: [-19.67, -9.91, 0.95]
+  Object: fern.064                       Type: MESH       Parent: None            Loc: [-19.82, -10.15, 0.95]
+  Object: fern.065                       Type: MESH       Parent: None            Loc: [-19.85, -9.88, 0.95]
+  Object: fern.066                       Type: MESH       Parent: None            Loc: [-20.09, -10.19, 0.95]
+  Object: fern.067                       Type: MESH       Parent: None            Loc: [-20.06, -10.28, 0.95]
+  Object: fern.068                       Type: MESH       Parent: None            Loc: [-20.01, -10.54, 0.95]
+  Object: fern.069                       Type: MESH       Parent: None            Loc: [-19.9, -10.81, 0.95]
+  Object: fern.070                       Type: MESH       Parent: None            Loc: [-19.83, -11.0, 0.95]
+  Object: fern.071                       Type: MESH       Parent: None            Loc: [-19.67, -11.33, 0.95]
+  Object: fern.072                       Type: MESH       Parent: None            Loc: [-19.5, -11.06, 0.95]
+  Object: fern.073                       Type: MESH       Parent: None            Loc: [-19.21, -11.44, 0.95]
+  Object: fern.074                       Type: MESH       Parent: None            Loc: [-19.73, -11.47, 0.95]
+  Object: fern.075                       Type: MESH       Parent: None            Loc: [-19.38, -11.55, 0.95]
+  Object: fern.076                       Type: MESH       Parent: None            Loc: [-18.95, -11.67, 0.95]
+  Object: fern.077                       Type: MESH       Parent: None            Loc: [-19.17, -11.51, 0.95]
+  Object: fern.078                       Type: MESH       Parent: None            Loc: [-18.97, -11.47, 0.95]
+  Object: fern.079                       Type: MESH       Parent: None            Loc: [-18.86, -11.49, 0.95]
+  Object: fern.080                       Type: MESH       Parent: None            Loc: [-18.42, -11.39, 0.95]
+  Object: fern.081                       Type: MESH       Parent: None            Loc: [-18.73, -11.57, 0.95]
+  Object: fern.082                       Type: MESH       Parent: None            Loc: [-18.3, -11.01, 0.95]
+  Object: fern.083                       Type: MESH       Parent: None            Loc: [-17.9, -11.17, 0.95]
+  Object: fern.084                       Type: MESH       Parent: None            Loc: [-17.57, -11.51, 0.95]
+  Object: fern.085                       Type: MESH       Parent: None            Loc: [-17.42, -10.99, 0.95]
+  Object: fern.086                       Type: MESH       Parent: None            Loc: [-17.86, -10.79, 0.95]
+  Object: fern.087                       Type: MESH       Parent: None            Loc: [-18.01, -10.82, 0.95]
+  Object: fern.088                       Type: MESH       Parent: None            Loc: [-17.37, -10.7, 0.95]
+  Object: fern.089                       Type: MESH       Parent: None            Loc: [-17.59, -10.67, 0.95]
+  Object: fern.090                       Type: MESH       Parent: None            Loc: [-17.8, -11.04, 0.95]
+  Object: fern.091                       Type: MESH       Parent: None            Loc: [-17.04, -10.68, 0.95]
+  Object: fern.092                       Type: MESH       Parent: None            Loc: [-16.94, -10.51, 0.95]
+  Object: fern.093                       Type: MESH       Parent: None            Loc: [-17.91, -10.86, 0.95]
+  Object: fern.094                       Type: MESH       Parent: None            Loc: [-17.63, -10.57, 0.95]
+  Object: fern.095                       Type: MESH       Parent: None            Loc: [-16.92, -10.21, 0.95]
+  Object: fern.096                       Type: MESH       Parent: None            Loc: [-17.53, -10.18, 0.95]
+  Object: fern.097                       Type: MESH       Parent: None            Loc: [-17.7, -10.06, 0.95]
+  Object: fern.098                       Type: MESH       Parent: None            Loc: [-18.67, -9.16, 0.95]
+  Object: fern.099                       Type: MESH       Parent: None            Loc: [-18.43, -9.31, 0.95]
+  Object: fern.100                       Type: MESH       Parent: None            Loc: [-17.55, -9.8, 0.95]
+  Object: fern.101                       Type: MESH       Parent: None            Loc: [-17.27, -9.51, 0.95]
+  Object: glowing 2.002                  Type: MESH       Parent: None            Loc: [2.2, -1.81, -0.01]
+  Object: glowing 2.003                  Type: MESH       Parent: deer            Loc: [2.5, -2.17, 1.41]
+  Object: glowing 2.004                  Type: MESH       Parent: deer            Loc: [2.56, -2.45, 1.18]
+  Object: glowing.002                    Type: MESH       Parent: None            Loc: [1.2, -3.18, -0.01]
+  Object: glowing.003                    Type: MESH       Parent: None            Loc: [1.15, -3.02, 0.05]
+  Object: glowing.004                    Type: MESH       Parent: None            Loc: [1.13, -2.77, 0.17]
+  Object: glowing.005                    Type: MESH       Parent: None            Loc: [1.25, -2.47, 0.1]
+  Object: glowing.006                    Type: MESH       Parent: None            Loc: [1.36, -2.16, 0.16]
+  Object: glowing.007                    Type: MESH       Parent: None            Loc: [2.12, -3.5, 0.03]
+  Object: glowing.008                    Type: MESH       Parent: None            Loc: [2.59, -3.2, 0.03]
+  Object: glowing.009                    Type: MESH       Parent: None            Loc: [1.57, -3.82, 0.03]
+  Object: glowing.010                    Type: MESH       Parent: None            Loc: [3.38, -2.51, 0.03]
+  Object: glowing.011                    Type: MESH       Parent: None            Loc: [3.96, -1.82, -0.04]
+  Object: glowing.012                    Type: MESH       Parent: None            Loc: [1.08, -2.86, 0.27]
+  Object: glowing.013                    Type: MESH       Parent: None            Loc: [0.96, -2.83, 0.18]
+  Object: glowing.014                    Type: MESH       Parent: None            Loc: [1.04, -2.7, 0.17]
+  Object: glowing.015                    Type: MESH       Parent: None            Loc: [1.15, -3.26, 0.03]
+  Object: glowing.016                    Type: CURVE      Parent: None            Loc: [2.53, -2.33, 0.64]
+  Object: glowing.017                    Type: MESH       Parent: None            Loc: [2.55, -2.39, -0.03]
+  Object: glowing.018                    Type: MESH       Parent: deer            Loc: [2.45, -2.02, 1.74]
+  Object: glowing.019                    Type: MESH       Parent: deer            Loc: [2.27, -1.65, 1.09]
+  Object: glowing.020                    Type: MESH       Parent: deer            Loc: [2.43, -1.75, 1.48]
+  Object: glowing.021                    Type: MESH       Parent: deer            Loc: [2.59, -2.17, 1.47]
+  Object: glowing.022                    Type: MESH       Parent: deer            Loc: [2.4, -1.99, 1.44]
+  Object: glowing.023                    Type: MESH       Parent: deer            Loc: [2.29, -1.27, 1.13]
+  Object: glowing.024                    Type: MESH       Parent: deer            Loc: [2.28, -1.6, 1.64]
+  Object: glowing.025                    Type: MESH       Parent: deer            Loc: [2.47, -1.77, 1.76]
+  Object: glowing.026                    Type: MESH       Parent: deer            Loc: [1.93, -1.43, 1.42]
+  Object: glowing.027                    Type: MESH       Parent: deer            Loc: [2.23, -0.53, 1.67]
+  Object: glowing.028                    Type: MESH       Parent: deer            Loc: [2.18, -0.44, 1.19]
+  Object: glowing.029                    Type: MESH       Parent: deer            Loc: [2.23, -0.79, 1.83]
+  Object: glowing.030                    Type: MESH       Parent: deer            Loc: [1.95, -0.66, 1.03]
+  Object: glowing.031                    Type: MESH       Parent: deer            Loc: [2.06, -0.8, 0.9]
+  Object: glowing.032                    Type: MESH       Parent: deer            Loc: [2.54, -2.46, 1.86]
+  Object: glowing.033                    Type: MESH       Parent: deer            Loc: [2.19, -0.47, 1.12]
+  Object: glowing.034                    Type: MESH       Parent: deer            Loc: [2.18, -0.51, 1.53]
+  Object: glowing.035                    Type: MESH       Parent: deer            Loc: [2.07, -1.03, 1.89]
+  Object: glowing.036                    Type: MESH       Parent: deer            Loc: [2.54, -2.46, 1.87]
+  Object: glowing.037                    Type: MESH       Parent: deer            Loc: [2.16, -1.29, 0.97]
+  Object: glowing.038                    Type: MESH       Parent: deer            Loc: [2.13, -0.7, 1.6]
+  Object: glowing.039                    Type: MESH       Parent: deer            Loc: [2.35, -1.58, 1.44]
+  Object: glowing.040                    Type: MESH       Parent: deer            Loc: [2.07, -0.99, 0.9]
+  Object: glowing.041                    Type: MESH       Parent: deer            Loc: [2.16, -0.45, 1.38]
+  Object: glowing.042                    Type: MESH       Parent: deer            Loc: [2.13, -1.22, 1.99]
+  Object: glowing.043                    Type: MESH       Parent: deer            Loc: [2.15, -1.2, 0.95]
+  Object: glowing.044                    Type: MESH       Parent: deer            Loc: [2.21, -0.56, 0.98]
+  Object: glowing.045                    Type: MESH       Parent: deer            Loc: [2.22, -0.63, 0.93]
+  Object: glowing.046                    Type: MESH       Parent: deer            Loc: [2.39, -2.24, 1.09]
+  Object: glowing.047                    Type: MESH       Parent: None            Loc: [1.97, -1.97, 1.4]
+  Object: glowing.048                    Type: MESH       Parent: None            Loc: [2.5, -2.16, 1.59]
+  Object: glowing.049                    Type: MESH       Parent: None            Loc: [2.38, -1.91, 1.51]
+  Object: glowing.050                    Type: MESH       Parent: None            Loc: [2.15, -1.33, 1.63]
+  Object: glowing.051                    Type: MESH       Parent: None            Loc: [1.99, -1.43, 1.46]
+  Object: glowing.052                    Type: MESH       Parent: None            Loc: [1.87, -1.47, 1.37]
+  Object: ground                         Type: MESH       Parent: None            Loc: [13.51, 4.39, -1.52]
+  Object: ground.001                     Type: MESH       Parent: None            Loc: [5.53, -0.16, -1.52]
+  Object: parthenocissus tricuspidata    Type: MESH       Parent: None            Loc: [2.51, -2.53, 0.82]
+  Object: parthenocissus tricuspidata.001 Type: MESH       Parent: None            Loc: [2.53, -2.54, 0.81]
+  Object: parthenocissus tricuspidata.002 Type: MESH       Parent: None            Loc: [2.47, -2.51, 0.68]
+  Object: parthenocissus tricuspidata.003 Type: MESH       Parent: None            Loc: [2.44, -2.49, 0.64]
+  Object: parthenocissus tricuspidata.004 Type: MESH       Parent: None            Loc: [2.47, -2.51, 0.71]
+  Object: parthenocissus tricuspidata.005 Type: MESH       Parent: None            Loc: [2.45, -2.44, 0.54]
+  Object: parthenocissus tricuspidata.006 Type: MESH       Parent: None            Loc: [2.49, -2.52, 0.71]
+  Object: parthenocissus tricuspidata.007 Type: MESH       Parent: None            Loc: [2.45, -2.49, 0.62]
+  Object: parthenocissus tricuspidata.008 Type: MESH       Parent: None            Loc: [2.51, -2.53, 0.79]
+  Object: parthenocissus tricuspidata.009 Type: MESH       Parent: None            Loc: [2.45, -2.5, 0.67]
+  Object: parthenocissus tricuspidata.010 Type: MESH       Parent: None            Loc: [2.55, -2.54, 0.91]
+  Object: parthenocissus tricuspidata.011 Type: MESH       Parent: None            Loc: [2.42, -2.43, 0.57]
+  Object: parthenocissus tricuspidata.012 Type: MESH       Parent: None            Loc: [2.46, -2.5, 0.64]
+  Object: parthenocissus tricuspidata.013 Type: MESH       Parent: None            Loc: [2.49, -2.52, 0.71]
+  Object: parthenocissus tricuspidata.014 Type: MESH       Parent: None            Loc: [2.5, -2.5, 0.95]
+  Object: parthenocissus tricuspidata.015 Type: MESH       Parent: None            Loc: [2.44, -2.48, 0.6]
+  Object: parthenocissus tricuspidata.016 Type: MESH       Parent: None            Loc: [2.49, -2.5, 0.61]
+  Object: parthenocissus tricuspidata.017 Type: MESH       Parent: None            Loc: [2.53, -2.53, 0.82]
+  Object: parthenocissus tricuspidata.018 Type: MESH       Parent: None            Loc: [2.47, -2.5, 0.66]
+  Object: parthenocissus tricuspidata.019 Type: MESH       Parent: None            Loc: [2.44, -2.36, 0.53]
+  Object: parthenocissus tricuspidata.020 Type: MESH       Parent: None            Loc: [2.51, -2.53, 0.77]
+  Object: parthenocissus tricuspidata.021 Type: MESH       Parent: None            Loc: [2.44, -2.46, 0.56]
+  Object: parthenocissus tricuspidata.022 Type: MESH       Parent: None            Loc: [2.53, -2.53, 0.86]
+  Object: parthenocissus tricuspidata.023 Type: MESH       Parent: None            Loc: [2.54, -2.45, 0.55]
+  Object: parthenocissus tricuspidata.024 Type: MESH       Parent: None            Loc: [2.53, -2.53, 0.85]
+  Object: parthenocissus tricuspidata.025 Type: MESH       Parent: None            Loc: [2.5, -2.51, 0.98]
+  Object: parthenocissus tricuspidata.026 Type: MESH       Parent: None            Loc: [2.55, -2.53, 0.86]
+  Object: parthenocissus tricuspidata.027 Type: MESH       Parent: None            Loc: [2.46, -2.43, 0.53]
+  Object: parthenocissus tricuspidata.028 Type: MESH       Parent: None            Loc: [2.49, -2.49, 0.92]
+  Object: parthenocissus tricuspidata.029 Type: MESH       Parent: None            Loc: [2.56, -2.54, 0.83]
+  Object: parthenocissus tricuspidata.030 Type: MESH       Parent: None            Loc: [2.49, -2.44, 0.54]
+  Object: parthenocissus tricuspidata.031 Type: MESH       Parent: None            Loc: [2.51, -2.52, 0.7]
+  Object: parthenocissus tricuspidata.032 Type: MESH       Parent: None            Loc: [2.49, -2.47, 0.57]
+  Object: parthenocissus tricuspidata.033 Type: MESH       Parent: None            Loc: [2.49, -2.5, 0.93]
+  Object: parthenocissus tricuspidata.034 Type: MESH       Parent: None            Loc: [2.51, -2.53, 0.75]
+  Object: parthenocissus tricuspidata.035 Type: MESH       Parent: None            Loc: [2.55, -2.54, 0.82]
+  Object: parthenocissus tricuspidata.036 Type: MESH       Parent: None            Loc: [2.53, -2.53, 0.76]
+  Object: parthenocissus tricuspidata.037 Type: MESH       Parent: None            Loc: [2.49, -2.52, 0.74]
+  Object: parthenocissus tricuspidata.038 Type: MESH       Parent: None            Loc: [2.5, -2.51, 0.96]
+  Object: parthenocissus tricuspidata.039 Type: MESH       Parent: None            Loc: [2.51, -2.52, 0.73]
+  Object: parthenocissus tricuspidata.040 Type: MESH       Parent: None            Loc: [2.53, -2.53, 0.79]
+  Object: parthenocissus tricuspidata.041 Type: MESH       Parent: None            Loc: [2.49, -2.51, 0.73]
+  Object: parthenocissus tricuspidata.042 Type: MESH       Parent: None            Loc: [2.47, -2.46, 0.57]
+  Object: parthenocissus tricuspidata.043 Type: MESH       Parent: None            Loc: [2.55, -2.53, 0.88]
+  Object: parthenocissus tricuspidata.044 Type: MESH       Parent: None            Loc: [-13.7, -8.52, 0.98]
+  Object: Plane                          Type: MESH       Parent: None            Loc: [-13.55, -4.23, 0.95]
+  Object: Plane.001                      Type: MESH       Parent: None            Loc: [-18.39, -5.44, 0.95]
+  Object: plant                          Type: MESH       Parent: None            Loc: [4.04, -2.03, -0.01]
+  Object: plant.001                      Type: MESH       Parent: None            Loc: [0.65, -3.71, 0.05]
+  Object: plant.002                      Type: MESH       Parent: None            Loc: [1.41, -4.09, -0.21]
+  Object: plant.003                      Type: MESH       Parent: None            Loc: [0.38, -3.74, 0.22]
+  Object: plant.004                      Type: MESH       Parent: None            Loc: [-12.92, -8.81, 0.95]
+  Object: ribs                           Type: MESH       Parent: deer            Loc: [2.45, -1.91, 0.57]
+  Object: Rose.001                       Type: MESH       Parent: deer            Loc: [2.69, -2.89, 1.26]
+  Object: Rose.002                       Type: MESH       Parent: deer            Loc: [2.61, -2.92, 1.26]
+  Object: spine 1.007                    Type: MESH       Parent: None            Loc: [2.44, -2.01, 0.75]
+  Object: spine 2                        Type: MESH       Parent: None            Loc: [2.36, -1.53, 0.67]
+  Object: twig.001                       Type: MESH       Parent: deer            Loc: [2.54, -2.45, 1.16]
+  Object: twig.002                       Type: MESH       Parent: deer            Loc: [2.53, -2.44, 1.17]
+  Object: twig.003                       Type: MESH       Parent: deer            Loc: [2.52, -2.39, 1.19]
+  Object: twig.004                       Type: MESH       Parent: None            Loc: [2.54, -2.56, 0.99]
+  Object: twig.005                       Type: MESH       Parent: None            Loc: [2.54, -2.56, 0.99]
+  Object: twig.006                       Type: MESH       Parent: None            Loc: [-12.47, -4.74, 0.95]
+  Object: glowing.001                    Type: MESH       Parent: None            Loc: [1.09, -3.57, 0.04]
+  Object: glowing 2.001                  Type: MESH       Parent: None            Loc: [2.48, -2.25, -0.01]
+  Object: glowing 2                      Type: MESH       Parent: None            Loc: [2.22, -2.22, -0.04]
+  Object: glowing                        Type: MESH       Parent: None            Loc: [1.25, -3.63, -0.03]
+  Object: ivy deer                       Type: CURVE      Parent: deer            Loc: [2.5, -2.44, 0.9]
+  Object: IVY_Curve                      Type: CURVE      Parent: None            Loc: [2.49, -2.5, 0.82]
+  Object: twig                           Type: MESH       Parent: deer            Loc: [2.47, -2.12, 1.39]
+  Object: Point.001                      Type: LIGHT      Parent: None            Loc: [2.18, -2.54, 0.31]
+  Object: Point.002                      Type: LIGHT      Parent: deer            Loc: [2.54, -2.53, 1.12]
+  Object: Rose                           Type: MESH       Parent: None            Loc: [-13.54, -8.47, 0.95]
+  Object: shadow                         Type: MESH       Parent: None            Loc: [2.78, -2.55, 4.76]
+  Object: shadow.001                     Type: MESH       Parent: None            Loc: [-0.47, -6.54, 1.3]
+  Object: shadow.002                     Type: MESH       Parent: None            Loc: [-2.22, -1.74, -1.55]
+  Object: shadow.003                     Type: MESH       Parent: None            Loc: [5.97, -6.74, -1.55]
+  Object: flower.001                     Type: MESH       Parent: None            Loc: [2.45, -2.49, 0.77]
+  Object: flower                         Type: MESH       Parent: None            Loc: [2.59, -2.51, 0.76]
+  Object: water                          Type: MESH       Parent: None            Loc: [-0.06, 0.23, 0.0]
+
+MATERIALS & SHADERS:
+  Material: bone
+  Material: bouganvillier.002
+  Material: bouganvillier.001
+  Material: bouganvillier
+  Material: bouganvillier.003
+  Material: bouganvillier.004
+  Material: bush
+  Material: deer shader
+  Material: fern.004
+  Material: flower.003
+  Material: flower.004
+  Material: flower.005
+  Material: flower.006
+  Material: glowing.004
+  Material: glowing.005
+  Material: glowing.006
+  Material: glowing.007
+  Material: glowing.008
+  Material: ivy
+  Material: Material.001
+  Material: Material.002
+  Material: Material.003
+  Material: flower.001
+  Material: flower.002
+  Material: Material.005
+  Material: Material.006
+  Material: flower
+  Material: Moss_Ground_2K
+  Material: Moss_Ground_2K.001
+  Material: parthenocissus tricuspidata
+  Material: glowing.001
+  Material: glowing.002
+  Material: glowing.003
+  Material: Flower bud3
+  Material: leaf
+  Material: Material
+  Material: glowing
+  Material: fern.001
+  Material: fern.002
+  Material: fern.003
+  Material: fern
+  Material: spine1
+  Material: twig
+  Material: twig.001
+  Material: twig.002
+  Material: Water
+
+WORLD & ENVIRONMENT:
+World: blue, uses nodes: True
+  Node: Light Path (LIGHT_PATH)
+  Node: Background.002 (BACKGROUND)
+  Node: World Output (OUTPUT_WORLD)
+  Node: Background.001 (BACKGROUND)
+  Node: Mix Shader (MIX_SHADER)
